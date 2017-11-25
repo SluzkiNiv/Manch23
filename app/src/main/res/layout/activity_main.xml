@@ -10,8 +10,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.niv.munch23.MainActivity">
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:inputType="textPersonName"
+        android:text="Nam"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="53dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginTop="214dp"
+        android:id="@+id/editText" />
 </RelativeLayout>
