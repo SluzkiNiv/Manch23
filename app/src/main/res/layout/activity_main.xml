@@ -8,19 +8,34 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#f9b36d"
     tools:context="com.example.niv.munch23.MainActivity">
 
-    <EditText
+    <Button
+        android:text="Readme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Nam"
-        android:ems="10"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="53dp"
-        android:layout_marginEnd="53dp"
-        android:layout_marginTop="214dp"
-        android:id="@+id/editText" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:id="@+id/btnReadme" />
+
+    <Button
+        android:text="Map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMap"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnReadme"
+        android:layout_alignStart="@+id/btnReadme" />
+
+    <Button
+        android:text="User Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUserInfo"
+        android:layout_marginBottom="71dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btnMap"
+        android:layout_alignEnd="@+id/btnMap" />
 </RelativeLayout>

@@ -175,6 +175,7 @@
             android:layout_marginStart="25dp"
             />
 
+
         <Button
             android:text="Register"
             android:id="@+id/btnRegister"
@@ -187,6 +188,20 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginTop="34dp" />
+
+        <Button
+            android:text="Camera Upload"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAllCaps="false"
+            android:id="@+id/btnCameraUpload"
+            android:layout_above="@+id/btnRegister"
+            android:layout_toRightOf="@+id/btnRegister"
+            android:layout_toEndOf="@+id/btnRegister"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+
+            android:visibility="visible" />
 
     </RelativeLayout>
 </ScrollView>
