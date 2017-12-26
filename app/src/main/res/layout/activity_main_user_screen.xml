@@ -11,6 +11,11 @@
     android:background="#f9b36d"
     tools:context="com.example.niv.munch23.MainUserScreen">
 
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.google.android.gms.common.SignInButton>
+
 
     <com.lorentzos.flingswipe.SwipeFlingAdapterView
         android:id="@+id/frame"
@@ -19,5 +24,15 @@
         android:layout_height="match_parent"
         tools:context=".MainUserScreen" />
     <!-- android:background="#ffeee9e2" -->
+
+    <Button
+        android:id="@+id/signOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:layout_alignRight="@id/frame"
+        android:layout_alignBottom="@id/frame"
+
+    />
 
 </RelativeLayout>
