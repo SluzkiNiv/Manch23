@@ -26,6 +26,16 @@
     <!-- android:background="#ffeee9e2" -->
 
     <Button
+        android:id="@+id/userDetailsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Details"
+        android:layout_alignLeft="@id/frame"
+        android:layout_alignBottom="@id/frame"
+
+        />
+
+    <Button
         android:id="@+id/signOutBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
