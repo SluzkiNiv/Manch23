@@ -46,9 +46,26 @@
 
     <ImageButton
         android:id="@+id/mapBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/places_ic_search"
-    />
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="280dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/map"
+        android:background="transparent"
+
+        />
+
+    <ImageButton
+        android:id="@+id/adminBtn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="280dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/admin"
+        android:visibility="invisible"
+        android:background="transparent"
+
+
+        />
 
 </RelativeLayout>
