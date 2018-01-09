@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_user_details"
+    android:id="@+id/activity_user_update"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f9b36d"
@@ -12,7 +12,7 @@
 
 
     <TextView
-        android:text="User Information:"
+        android:text="Update Information:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -21,7 +21,7 @@
 
         />
 
-    <TextView
+    <EditText
         android:text="Username:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         android:layout_marginLeft="50dp"
         android:id="@+id/userNameTxt" />
 
-    <TextView
+    <EditText
         android:text="First Name:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
         android:layout_below="@+id/userNameTxt"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="50dp"/>
-    <TextView
+    <EditText
         android:text="Last Name: "
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,9 +46,9 @@
         android:layout_below="@+id/fNameTxt"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="50dp"
-    />
+        />
 
-    <TextView
+    <EditText
         android:text="Address:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,37 +56,19 @@
         android:layout_below="@+id/lNameTxt"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="50dp"
-    />
-
-    <TextView
-        android:text="Email:"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/emailTxt"
-        android:layout_below="@+id/addrTxt"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="50dp"
-    />
-
-    <ImageView
-        android:layout_below="@+id/emailTxt"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
-        android:id="@+id/personalImg"
-        android:src="@mipmap/ic_launcher"
         />
 
-    <ImageButton
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src = "@android:drawable/ic_menu_add"
-        android:id="@+id/imageButton"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="11dp"
-        android:layout_marginEnd="11dp" />
+        android:layout_below="@id/addrTxt"
+        android:layout_marginLeft="150dp"
+        android:text="Save"
+        android:id="@+id/updtBtn"
+
+
+        />
+
 
 
 </RelativeLayout>

@@ -2,7 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.niv.munch23">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="18" />
@@ -57,7 +59,9 @@
         </provider>
 
         <activity android:name=".MainUserScreen" />
-        <activity android:name=".AdminStats"></activity>
+        <activity android:name=".AdminStats" />
+        <activity android:name=".DishActivity" />
+        <activity android:name=".UserUpdate"></activity>
     </application>
 
 </manifest>
