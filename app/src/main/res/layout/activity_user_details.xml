@@ -5,7 +5,7 @@
     android:id="@+id/activity_user_details"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f9b36d"
+    android:background="#fdcd51"
     android:layout_gravity="left"
     tools:context="com.example.niv.munch23.UserDetails">
 
@@ -56,7 +56,7 @@
         android:layout_below="@+id/lNameTxt"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="50dp"
-    />
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:text="Email:"
@@ -85,7 +85,7 @@
         android:layout_marginTop="490dp"
         android:layout_marginLeft="310dp"
         android:scaleType="centerCrop"
-        android:background="transparent"
+        android:background="#fdcd51"
         />
 
 

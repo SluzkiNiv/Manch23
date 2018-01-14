@@ -12,37 +12,63 @@
     android:paddingBottom="20dp"
     android:outlineProvider="bounds"
     android:clipToPadding="false"
-    >
+    android:weightSum="1">
 
 
     <android.support.v7.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        app:cardCornerRadius="50dp">
+        android:background="#f9b36d"
+        app:cardElevation="0dp"
+        android:layout_gravity="center">
         <FrameLayout
+
             android:layout_gravity="center"
             android:layout_width="250dp"
-            android:layout_height="350dp">
-
+            android:layout_height="350dp"
+            android:background="#fdf0c6">
              <TextView
-                 android:id="@+id/helloText"
-                 android:textSize="40sp"
-                 android:textColor="@android:color/white"
-                 android:background="@color/wallet_holo_blue_light"
-                 android:gravity="center_horizontal"
-                 tools:text="Heya!"
                  android:layout_width="match_parent"
-                 android:layout_height="match_parent" />
-            <ImageView
+                 android:layout_height="70dp"
+                 android:id="@+id/nameTxt"
+                 android:textSize="25sp"
+                 android:textColor="@android:color/black"
+                 android:fontFamily="@mn"
+                 android:background="#fdcd51"
+                 tools:text="HUMMUS LEGEND"
+                 android:layout_gravity="top"
+                 android:gravity="center"
+                 />
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="75dp">
+
+           <ImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="85pt"
-                android:gravity="center_vertical"
-                android:scaleType="fitEnd"
+                android:scaleType="fitXY"
                 android:id="@+id/dishImage"
-                android:src="@mipmap/ic_launcher"
+                android:src="@drawable/hummus_legend"
                 />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/priceTxt"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:background="#fdcd51"
+                tools:text="23"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                />
+
             <!--
 
          <View

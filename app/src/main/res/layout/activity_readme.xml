@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#f9b36d"
+    android:background="#fdcd51"
     tools:context="com.example.niv.munch23.Readme">
 
     <TextView
@@ -26,4 +26,11 @@ We will give you the opertunity to merge between you all and the most smartest w
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="109dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/chopchop"
+        android:layout_marginTop="300dp"
+        />
 </RelativeLayout>

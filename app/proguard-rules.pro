@@ -9,6 +9,14 @@
 
 # Add any project specific keep options here:
 
+
+#Keep "Register" method - need to to be clear (writing bytes to FireBase)
+-keep public class Register { public void tryToRegister(); }
+#Also, keep "Image to upload"
+-keep public class Register { ImageView imgImageToUpload; }
+
+
+
 # If your project uses WebView with JS, uncomment the following
 # and specify the fully qualified class name to the JavaScript interface
 # class:

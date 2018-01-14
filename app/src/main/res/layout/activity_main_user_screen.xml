@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#f9b36d"
+    android:background="#fdcd51"
     tools:context="com.example.niv.munch23.MainUserScreen">
 
     <com.google.android.gms.common.SignInButton
@@ -19,7 +19,7 @@
 
     <com.lorentzos.flingswipe.SwipeFlingAdapterView
         android:id="@+id/frame"
-        android:background="#f9b36d"
+        android:background="#fdcd51"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainUserScreen" />
@@ -51,7 +51,7 @@
         android:layout_marginRight="280dp"
         android:scaleType="centerCrop"
         android:src="@drawable/map"
-        android:background="transparent"
+        android:background="#fdcd51"
 
         />
 
@@ -63,7 +63,7 @@
         android:scaleType="centerCrop"
         android:src="@drawable/admin"
         android:visibility="invisible"
-        android:background="transparent"
+        android:background="#fdcd51"
 
 
         />

@@ -5,7 +5,7 @@
     android:id="@+id/activity_user_update"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f9b36d"
+    android:background="#fdcd51"
     android:layout_gravity="left"
     tools:context="com.example.niv.munch23.UserDetails">
 
@@ -49,11 +49,21 @@
         />
 
     <EditText
-        android:text="Address:"
+        android:text="City:"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/addrTxt"
+        android:id="@+id/cityTxt"
         android:layout_below="@+id/lNameTxt"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <EditText
+        android:text="Street:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/streetTxt"
+        android:layout_below="@+id/cityTxt"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="50dp"
         />
@@ -61,7 +71,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/addrTxt"
+        android:layout_below="@id/streetTxt"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="150dp"
         android:text="Save"
         android:id="@+id/updtBtn"
