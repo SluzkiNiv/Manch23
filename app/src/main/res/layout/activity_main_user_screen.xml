@@ -44,11 +44,12 @@
         android:id="@+id/mapBtn"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_marginRight="280dp"
         android:scaleType="centerCrop"
         android:src="@drawable/map"
         android:background="#fdcd51"
-        />
+        android:layout_alignParentLeft="true"
+            />
+
         <ImageButton
             android:id="@+id/userDetailsBtn"
             android:layout_width="70dp"
@@ -62,11 +63,11 @@
             android:id="@+id/signOutBtn"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginRight="158dp"
             android:scaleType="centerCrop"
             android:src="@drawable/signout"
             android:background="#fdcd51"
-            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+
             />
 
 
