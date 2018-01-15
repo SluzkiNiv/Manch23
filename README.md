@@ -1,7 +1,9 @@
 # Manch23
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+Our goal is to connect between you, empty stomach people, starving and food lover person to the most tasty restaurant arround you in reasonable price only 23 NIS.
+Our platform is also great for your restaurant buisness to share your products arround the people near by.
+We will give you the opertunity to merge between you all and the most smartest way known.
 
 ## Code Example
 
@@ -9,15 +11,16 @@ Show what the library does as concisely as possible, developers should be able t
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+Munch will change the enviorment of food purchases arround the world, will make the accessbilty much more convience for suppliers and consumers as one and will create a price bound for all customers.
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+Google Store.
 
 ## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+Firebase SDK.
+https://firebase.google.com/?gclid=Cj0KCQiAnOzSBRDGARIsAL-mUB26eBEgG0ap7csuzVzdRfNAyScpz5Kfs9IsOf6xJ2x80u13q09F-yYaAtloEALw_wcB
 
 ## Tests
 
@@ -29,4 +32,4 @@ Let people know how they can dive into the project, include important links to t
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+© Niv Sluzki & Dean Koren 
