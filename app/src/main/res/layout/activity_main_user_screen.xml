@@ -50,7 +50,7 @@
         android:layout_marginRight="280dp"
         android:scaleType="centerCrop"
         android:src="@drawable/map"
-        android:background="#fdcd51" android:visibility="visible"
+        android:background="#fdcd51"
         />
         <ImageButton
             android:id="@+id/userDetailsBtn"
