@@ -78,7 +78,7 @@
             android:layout_height="80dp"
             android:layout_gravity="top"
             android:background="#fdcd51"
-            android:fontFamily="@font/mensch"
+            android:fontFamily="sans-serif"
             android:gravity="center|bottom"
             android:textAllCaps="true"
             android:textColor="@android:color/black"
