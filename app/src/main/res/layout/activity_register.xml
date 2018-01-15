@@ -19,75 +19,87 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         android:gravity="left"
         android:textAlignment="gravity"
-
         tools:context="com.example.niv.munch23.Register">
 
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:ems="10"
-            android:layout_alignParentTop="true"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
+            android:inputType="textPersonName"
             android:id="@+id/etUsername"
             android:hint="Username"
+            android:background="#ebe7e8"
+            android:textColorHint="#000000"
+            android:fontFamily="@font/mensch"
+            android:layout_marginTop="10dp"
             android:gravity="left"
             android:textAlignment="gravity"
             />
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:ems="10"
-            android:layout_below="@+id/etUsername"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="18dp"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
+
+            android:inputType="textPassword"
+            android:layout_below="@+id/etUsername"
             android:id="@+id/etPassword"
             android:hint="Password"
+            android:background="#ebe7e8"
+            android:textColorHint="#000000"
+            android:fontFamily="@font/mensch"
             android:gravity="left"
             android:textAlignment="gravity"
+
             />
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:ems="10"
-            android:layout_below="@+id/etPassword"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="18dp"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
+
+            android:inputType="textPassword"
+            android:layout_below="@+id/etPassword"
             android:id="@+id/etConfPassword"
             android:hint="Confirm Password"
+            android:background="#ebe7e8"
+            android:textColorHint="#000000"
+            android:fontFamily="@font/mensch"
             android:gravity="left"
             android:textAlignment="gravity"
             />
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:ems="10"
-            android:layout_below="@+id/etConfPassword"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="18dp"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
+
+            android:inputType="textPersonName"
+            android:layout_below="@+id/etConfPassword"
             android:id="@+id/etFirstName"
             android:hint="First Name"
+            android:background="#ebe7e8"
+            android:textColorHint="#000000"
+            android:fontFamily="@font/mensch"
             android:gravity="left"
             android:textAlignment="gravity"
             />
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:ems="10"
-            android:layout_below="@+id/etFirstName"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="18dp"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/etFirstName"
             android:id="@+id/etLastName"
             android:hint="Last Name"
+            android:background="#ebe7e8"
+            android:textColorHint="#000000"
+            android:fontFamily="@font/mensch"
             android:gravity="left"
             android:textAlignment="gravity"
             />
@@ -101,56 +113,68 @@
             android:textStyle="normal|bold"
             android:textSize="18sp"
             android:textColor="@android:color/black"
-            android:layout_marginLeft="37dp"
-            android:layout_marginStart="37dp"
             android:layout_below="@+id/etLastName"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:gravity="left"
+            android:gravity="center"
             android:textAlignment="gravity"
+            android:textColorHint="#000000"
+            android:fontFamily="@font/mensch"
+
             />
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="18dp"
+            android:layout_alignParentLeft="true"
+
             android:inputType="textPersonName"
-            android:ems="10"
             android:id="@+id/etStreet"
             android:hint="Street"
             android:layout_below="@+id/etCity"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
             android:gravity="left"
             android:textAlignment="gravity"
+            android:background="#ebe7e8"
+            android:textColorHint="#000000"
+            android:fontFamily="@font/mensch"
+
             />
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:layout_below="@+id/etLastName"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="18dp"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
+
+            android:layout_below="@+id/etLastName"
             android:id="@+id/etEmail"
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:gravity="left"
             android:textAlignment="gravity"
+            android:background="#ebe7e8"
+            android:textColorHint="#000000"
+            android:fontFamily="@font/mensch"
+
             />
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="18dp"
+            android:layout_alignParentLeft="true"
+
             android:inputType="textPersonName"
-            android:ems="10"
             android:id="@+id/etCity"
             android:hint="City"
-            android:layout_marginTop="11dp"
             android:layout_below="@+id/textView"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
             android:gravity="left"
             android:textAlignment="gravity"
+            android:background="#ebe7e8"
+            android:textColorHint="#000000"
+            android:fontFamily="@font/mensch"
+
             />
 
         <LinearLayout
@@ -165,20 +189,26 @@
 
             <Button
                 android:text="Upload Image"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
                 android:id="@+id/btnUploadImage"
                 android:textAlignment="center"
-                android:textAllCaps="false" />
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:background="@drawable/roundedbutton"
+                />
 
 
             <Button
                 android:text="Camera Upload"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
                 android:textAllCaps="false"
                 android:id="@+id/btnCameraUpload"
                 android:layout_alignBottom="@+id/imgImageToUpload"
+                android:layout_marginStart="30dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/roundedbutton"
                  />
         </LinearLayout>
 
@@ -199,13 +229,16 @@
             <Button
                 android:text="Register"
                 android:id="@+id/btnRegister"
-                android:layout_height="50dp"
+                android:layout_height="120dp"
                 android:layout_width="120dp"
                 android:textStyle="normal|bold"
                 android:textAlignment="center"
                 android:textSize="18sp"
                 android:layout_below="@+id/imgImageToUpload"
-                android:layout_marginTop="34dp" />
+                android:layout_marginTop="34dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/roundedbutton"
+                />
 
 
     </RelativeLayout>

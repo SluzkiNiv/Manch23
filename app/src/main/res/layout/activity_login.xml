@@ -18,13 +18,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
+        android:fontFamily="@font/mensch"
         android:ems="10"
         android:id="@+id/etEmail"
         android:layout_marginBottom="233dp"
         android:hint="Email"
+        android:textColorHint="#000000"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:gravity="left"
+        android:background="#ebe7e8"
         android:textAlignment="gravity"
 
         />
@@ -41,6 +44,10 @@
         android:layout_alignLeft="@+id/etEmail"
         android:layout_alignStart="@+id/etEmail"
         android:gravity="left"
+        android:background="#ebe7e8"
+        android:textColorHint="#000000"
+        android:fontFamily="@font/mensch"
+
         android:textAlignment="gravity"
 
         />
@@ -48,22 +55,28 @@
 
     <Button
         android:text="Login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:id="@+id/btnLogin"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:layout_below="@+id/etPassword"
         android:layout_centerHorizontal="true"
-        android:textAlignment="center" />
+        android:textSize="22dp"
+        android:background="@drawable/roundedbutton"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        />
 
     <TextView
         android:text="Register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvRegister"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="15dp"
         android:layout_below="@+id/btnLogin"
         android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textColor="#000000"
         android:textAlignment="center" />
 
     <ImageView
@@ -77,24 +90,37 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="Munch23"
+        android:text="Munch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView3"
-        android:fontFamily="cursive"
+        android:fontFamily="@font/menschbold"
         android:textSize="30sp"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_centerHorizontal="true"
+        android:layout_marginTop="215dp"
+        android:layout_marginStart="120dp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:text="23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:fontFamily="@font/menschbold"
+        android:textSize="30sp"
         android:textStyle="normal|bold"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textColor="@android:color/black" />
+        android:layout_marginTop="215dp"
+        android:layout_marginStart="80dp"
+        android:textColor="#e95750" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="510dp"
-        android:layout_marginLeft="160dp"
+        android:layout_marginStart="150dp"
         android:background="#fdcd51"
         android:src = "@drawable/info"
         android:scaleType="fitStart"

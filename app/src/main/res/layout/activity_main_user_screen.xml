@@ -17,6 +17,7 @@
     </com.google.android.gms.common.SignInButton>
 
 
+
     <com.lorentzos.flingswipe.SwipeFlingAdapterView
         android:id="@+id/frame"
         android:background="#fdcd51"
@@ -25,35 +26,7 @@
         tools:context=".MainUserScreen" />
     <!-- android:background="#ffeee9e2" -->
 
-    <Button
-        android:id="@+id/userDetailsBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="User Details"
-        android:layout_alignLeft="@id/frame"
-        android:layout_alignBottom="@id/frame"
 
-        />
-    <Button
-        android:id="@+id/signOutBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sign Out"
-        android:layout_alignRight="@id/frame"
-        android:layout_alignBottom="@id/frame"
-
-        />
-
-    <ImageButton
-        android:id="@+id/mapBtn"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginRight="280dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/map"
-        android:background="#fdcd51"
-
-        />
 
     <ImageButton
         android:id="@+id/adminBtn"
@@ -64,8 +37,44 @@
         android:src="@drawable/admin"
         android:visibility="invisible"
         android:background="#fdcd51"
-
-
         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageButton
+        android:id="@+id/mapBtn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="280dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/map"
+        android:background="#fdcd51" android:visibility="visible"
+        />
+        <ImageButton
+            android:id="@+id/userDetailsBtn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="215dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/settingssmall"
+            android:background="#fdcd51"
+            android:layout_alignParentRight="true"
+            />
+        <ImageButton
+            android:id="@+id/signOutBtn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="158dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/signout"
+            android:background="#fdcd51"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+
 
 </RelativeLayout>
