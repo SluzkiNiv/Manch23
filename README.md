@@ -5,9 +5,12 @@ Our goal is to connect between you, empty stomach people, starving and food love
 Our platform is also great for your restaurant buisness to share your products arround the people near by.
 We will give you the opertunity to merge between you all and the most smartest way known.
 
-## Code Example
+## Teasers
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+![alt text](https://i.ibb.co/h7NBWKG/1.png)
+![alt text](https://i.ibb.co/Dr5BzZq/2.png)
+
+
 
 ## Motivation
 
