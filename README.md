@@ -7,7 +7,7 @@ We will give you the opertunity to merge between you all and the most smartest w
 
 ## Teasers
 
-![Login](https://i.ibb.co/Dr5BzZq/2.png | width=100)
+![Login](https://i.ibb.co/Dr5BzZq/2.png)
 ![MainScreen](https://i.ibb.co/h7NBWKG/1.png | width=100)
 
 
